@@ -60,7 +60,7 @@
 
 	<!-- test -->
 	<FUNCTION id="function_id(a,b)">
-		<CMD condition="a gt b" cmd="device.toastPopup('a가 큽니다.')" elsecmd="device.toastPopup('b가 큽니다.')"/CMD>
+		<CMD condition="a gt b" cmd="device.toastPopup('a가 큽니다.')" elsecmd="device.toastPopup('b가 큽니다.')"/>
 	</FUNCTION>	
 	
 	<!-- 로딩되면 지역 코드 업데이트.-->
