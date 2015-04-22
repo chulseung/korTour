@@ -10,5 +10,6 @@
 	<APPLICATIONINFO>
 		<START url="ui/start.xml" /> 
 		<ORIENTATION type="defaultPortrait" />
+		<DEBUG suppressError="all" />
 	</APPLICATIONINFO>
 </MOML>
