@@ -23,7 +23,8 @@
 			<WINDOW layout="300,350" align="relative">
 				<LIST2 id="tourList" layout="0,0,300,350" dataList="//item" img="lightsteelblue">
 					<LISTLAYOUT>
-						<BUTTON layout="0,0,300,60" img="transparent" pressedImg="#80a0ff" onClick="function.showOverview">
+						<!--BUTTON layout="0,0,300,60" img="transparent" pressedImg="#80a0ff" onClick="function.showOverview"-->
+						<BUTTON layout="0,0,300,60" img="transparent" pressedImg="#80a0ff" onClick="device.toastPopup('검색 버튼이 눌렸습니다.')">
 							<WINDOW layout="5,5,75,50" defaultImg="{function.checkValue(xpath.evaluate('firstimage2/text()'))}"/>
 							<LABEL id="title" layout="90,5,200,15" text="{xpath.evaluate('title/text()')}" textAlign="vCenter" fontSize="12" />
 							<LABEL id="addr" layout="95,20,200,10" text="{xpath.evaluate('addr1/text()')} {xpath.evaluate('addr2/text()')}" textAlign="vCenter" fontSize="10" />
